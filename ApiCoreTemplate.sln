@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AllNotes", "AllNotes", "{C11FE70D-2BA0-4154-AB60-3BC68634BF72}"
+	ProjectSection(SolutionItems) = preProject
+		Checklist.txt = Checklist.txt
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "zo_organized.Shared", "content\zo_organized.Shared\zo_organized.Shared.csproj", "{BE910954-C252-4CC8-9023-8C7210649641}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "ZoOrganizedDB", "content\ZoOrganizedDB\ZoOrganizedDB.sqlproj", "{67A3EE11-CE05-42A9-BBD7-8E4A5DD4DDF3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ItemSingular", "ItemSingular", "{0DB79D6E-E4E9-4BAA-9FFF-BD7806AA2D8E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{33825247-22EE-4486-904B-903A5123C64B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "zo_organized.Api", "content\zo_organized.Api\zo_organized.Api.csproj", "{C68EEBC4-D7CB-4B42-AE52-CA0A04DDA39F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "zo_organized.ItemSingular.Infrastructure", "content\ItemSingular\zo_organized.ItemSingular.Infrastructure\zo_organized.ItemSingular.Infrastructure.csproj", "{3BF953A8-22C1-4A3D-A767-FC3BE834E51A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "zo_organized.ItemSingular.Domain", "content\ItemSingular\zo_organized.ItemSingular.Domain\zo_organized.ItemSingular.Domain.csproj", "{BBF60DC3-1F5E-4C74-988F-7E46B60DE96B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Misc", "Misc", "{4AB1F3C2-A325-4FB3-B5B0-3EE113037BD1}"
+	ProjectSection(SolutionItems) = preProject
+		.template.config\template.json = .template.config\template.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE910954-C252-4CC8-9023-8C7210649641}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE910954-C252-4CC8-9023-8C7210649641}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE910954-C252-4CC8-9023-8C7210649641}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE910954-C252-4CC8-9023-8C7210649641}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67A3EE11-CE05-42A9-BBD7-8E4A5DD4DDF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67A3EE11-CE05-42A9-BBD7-8E4A5DD4DDF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67A3EE11-CE05-42A9-BBD7-8E4A5DD4DDF3}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{67A3EE11-CE05-42A9-BBD7-8E4A5DD4DDF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67A3EE11-CE05-42A9-BBD7-8E4A5DD4DDF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67A3EE11-CE05-42A9-BBD7-8E4A5DD4DDF3}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{C68EEBC4-D7CB-4B42-AE52-CA0A04DDA39F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C68EEBC4-D7CB-4B42-AE52-CA0A04DDA39F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C68EEBC4-D7CB-4B42-AE52-CA0A04DDA39F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C68EEBC4-D7CB-4B42-AE52-CA0A04DDA39F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BF953A8-22C1-4A3D-A767-FC3BE834E51A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BF953A8-22C1-4A3D-A767-FC3BE834E51A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BF953A8-22C1-4A3D-A767-FC3BE834E51A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BF953A8-22C1-4A3D-A767-FC3BE834E51A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBF60DC3-1F5E-4C74-988F-7E46B60DE96B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBF60DC3-1F5E-4C74-988F-7E46B60DE96B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBF60DC3-1F5E-4C74-988F-7E46B60DE96B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBF60DC3-1F5E-4C74-988F-7E46B60DE96B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C68EEBC4-D7CB-4B42-AE52-CA0A04DDA39F} = {33825247-22EE-4486-904B-903A5123C64B}
+		{3BF953A8-22C1-4A3D-A767-FC3BE834E51A} = {0DB79D6E-E4E9-4BAA-9FFF-BD7806AA2D8E}
+		{BBF60DC3-1F5E-4C74-988F-7E46B60DE96B} = {0DB79D6E-E4E9-4BAA-9FFF-BD7806AA2D8E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BD9EDD7A-E80C-4C34-B399-8EAB6AA9732D}
+	EndGlobalSection
+EndGlobal

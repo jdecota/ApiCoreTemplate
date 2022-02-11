@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>e756a4c3-45b1-41b7-acd3-5e2db6af4278</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="dapper.net" Version="0.1.0" />
+    <PackageReference Include="MediatR" Version="10.0.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ItemSingular\zo_organized.ItemSingular.Domain\zo_organized.ItemSingular.Domain.csproj" />
+    <ProjectReference Include="..\ItemSingular\zo_organized.ItemSingular.Infrastructure\zo_organized.ItemSingular.Infrastructure.csproj" />
+    <ProjectReference Include="..\zo_organized.Shared\zo_organized.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

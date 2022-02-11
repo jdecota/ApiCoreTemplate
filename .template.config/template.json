@@ -1,0 +1,89 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Jenz Dev",
+  "classifications": [ "Common", "Web", "Api", "Core Api" ],
+  "identity": "Jenz.Template.ApiCoreDDD",
+  "name": "Jenz Api Core DDD Template",
+  "shortName": "jenzapicoretemplate",
+  "defaultName": "Api Core TEMPLATE",
+  "tags": {
+    "language": "C#",
+    "type": "solution"
+  },
+
+  "sourceName": "ApiCoreTemplate",
+  "preferNameDirectory": true,
+  "guids": [
+    "C11FE70D-2BA0-4154-AB60-3BC68634BF72}",
+    "FF13E04A-DF43-406C-BFA9-6619DED97F06",
+    "BE910954-C252-4CC8-9023-8C7210649641",
+    "67A3EE11-CE05-42A9-BBD7-8E4A5DD4DDF3",
+    "95364359-EC99-4E0E-895E-7012AC18622F",
+    "E2D9A2A4-C51C-4F16-AFDE-1CB22A3F7D7A"
+  ],
+  "symbols": {
+    "Framework": {
+      "type": "parameter",
+      "description": "The target framework for the project.",
+      "datatype": "choice",
+      "choices": [
+        {
+          "choice": "net6.0",
+          "description": "Target net6.0"
+        }
+      ],
+      "replaces": "net6.0",
+      "defaultValue": "net6.0"
+    },
+    "Item Singular": {
+      "type": "parameter",
+      "datatype": "text",
+      "defaultValue": "",
+      "replaces": "ItemSingular",
+      "description": "Replaces ItemSingular",
+      "fileRename": "ItemSingular"
+    },
+    "Items Plural": {
+      "type": "parameter",
+      "datatype": "text",
+      "defaultValue": "",
+      "replaces": "ItemPlural",
+      "description": "Replaces ItemPlural",
+      "fileRename": "ItemPlural"
+    },
+    "ItemList": {
+      "type": "parameter",
+      "datatype": "text",
+      "defaultValue": "",
+      "replaces": "ItemList",
+      "description": "Replaces ItemList",
+      "fileRename": "ItemList"
+    },
+    "lowercaseItem itemSingular": {
+      "type": "parameter",
+      "datatype": "text",
+      "defaultValue": "",
+      "replaces": "itemSingular",
+      "description": "replaces itemSingular"
+    },
+    "lowercaseItem itemPlural": {
+      "type": "parameter",
+      "datatype": "text",
+      "defaultValue": "",
+      "replaces": "itemPlural",
+      "description": "replaces itemPlural"
+    },
+    "Lowercase  itemList": {
+      "type": "parameter",
+      "datatype": "text",
+      "defaultValue": "",
+      "replaces": "itemList",
+      "description": "Replaces itemList"
+    }
+  },
+  "primaryOutputs": [
+    { 
+      "path": "ApiCoreTemplate.sln"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+Setup
+	1. Folder for Domain
+
+	2 New Class Library projects in folder
+
+		Zo.DomainName.Domain  >   
+				1. Create Folders:   Aggregates, Commands, Entities, Events, Repositories, ValueObjects
+				2. Add Nuget Packages:   Rt click > "Manage Nuget packages"
+						- Dapper ,  dapper.net,   MediatR
+				3.  Add Project References  >   Rt click > Add > Project Reference
+						-  Shared Project
+
+		Zo.DomainName.Infrastructure  > 
+				1. Create Folders:  CommandHandlers, DbModels, Repositories, Responses
+				2. Add Nuget Packages:   Rt click > "Manage Nuget packages"
+						- Dapper ,  dapper.net,   MediatR
+				3.  Add Project References  >   Rt click > Add > Project Reference
+						-  Shared Project,  Domain Project
+
+		
+	2.	Under Api Project
+			Folder named  EventHandlers_DomainName  (under Api EventHandlers folder)
+	
+
+Code
+	1. Add Controller
+			Rt Click "Controllers" Folder  >  Add Controller
+			Name:  DomainNameContoller   (MUST have Contoller Suffix)
+	2. 
+
+
+	ItemAggregate
