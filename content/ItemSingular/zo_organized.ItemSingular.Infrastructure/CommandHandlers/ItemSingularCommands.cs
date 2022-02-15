@@ -31,7 +31,7 @@ namespace zo_organized.ItemSingular.Infrastructure.CommandHandlers
             if (result?.ItemSingularList?.Count() > 0)
             {
                 result.AddGetAllItemPluralSuccessEvent();
-                await new DomainEventsDispatcher().Dispatch(result);
+                //await new DomainEventsDispatcher().Dispatch(result);
             }
             return result;
         }
@@ -42,7 +42,7 @@ namespace zo_organized.ItemSingular.Infrastructure.CommandHandlers
             if (!string.IsNullOrEmpty(result?.ItemSingularInformation?.ItemSingularName))
             {
                 result.AddGetItemSingularByIdSuccessEvent();
-                await new DomainEventsDispatcher().Dispatch(result);
+                //await new DomainEventsDispatcher().Dispatch(result);
             }
             return result;
         }
@@ -56,7 +56,7 @@ namespace zo_organized.ItemSingular.Infrastructure.CommandHandlers
             if (result?.ItemSingularInformation?.ItemSingularId != Guid.Empty)
             {
                 result?.AddItemSingularSuccessEvent();
-                await new DomainEventsDispatcher().Dispatch(result);
+                //await new DomainEventsDispatcher().Dispatch(result);
             }
             return result;
         }

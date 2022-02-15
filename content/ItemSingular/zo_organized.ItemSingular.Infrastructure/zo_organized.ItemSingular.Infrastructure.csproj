@@ -13,6 +13,9 @@
   <ItemGroup>
     <ProjectReference Include="..\..\zo_organized.Shared\zo_organized.Shared.csproj" />
     <ProjectReference Include="..\zo_organized.ItemSingular.Domain\zo_organized.ItemSingular.Domain.csproj" />
+
+    <!-- <ProjectReference Include="..\..\..\..\Zo-Api-Core\zo_organized.Shared\zo_organized.Shared.csproj" />
+    <ProjectReference Include="..\zo_organized.ContactType.Domain\zo_organized.ContactType.Domain.csproj" /> -->
   </ItemGroup>
 
 </Project>

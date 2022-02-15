@@ -15,6 +15,8 @@ namespace zo_organized.ItemSingular.Domain.Aggregates
         #region IAggregate implementation
 
         public Guid UniqueId { get; private set; }
+        
+        public string UniqueIds { get; }
 
         public string ModelPropertyName { get; private set; }
 
